@@ -4,13 +4,13 @@ build-backend = "hatchling.build"
 
 [project]
 name = "project-alpha"
-version = "0.1.0"
+version = "0.0.1"
 description = "Scientific quantitative research and trading platform"
 readme = "README.md"
 requires-python = ">=3.12"
 license = { text = "MIT" }
 authors = [
-    { name = "Project Alpha Team" }
+    { name = "dhruvXdevv" }
 ]
 dependencies = [
     "pydantic>=2.6.0",

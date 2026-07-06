@@ -2,6 +2,8 @@
 
 Scientific quantitative research and trading platform built with Clean Architecture and Domain-Driven Design (DDD).
 
+Owned and maintained by **dhruvXdevv**.
+
 ---
 
 ## Vision
@@ -89,15 +91,26 @@ project-alpha/
 
 ## Branching Strategy & Versioning
 
-* **Branching Strategy**: Standard Git Flow / GitHub Flow. All modifications go through Feature branches (`feat/`, `fix/`, `docs/`) and require passing CI checks and PR reviews before merging into `main`.
+* **Branching Strategy**: 
+  * Use `main` directly during the foundation stage.
+  * Introduce `develop` and `feature/*` branches after the foundation stage is complete.
 * **Versioning Policy**: Follows Semantic Versioning (SemVer) `MAJOR.MINOR.PATCH` pattern.
 
 ---
 
-## Project Status
+## Project Status & Roadmap
 
+### Current Status
 * **Phase**: Milestone 0 (M0) — Project initialization and tooling configuration.
-* **Release**: `0.1.0-dev`
+* **Release**: `0.0.1`
+
+### Roadmap
+* **Sprint 0 (Current)**: Project structure, dependencies, toolchain, and quality gate configurations (Completed).
+* **Sprint 0.5**: CI/CD pipeline improvements, testing infrastructure validation, and test setup.
+* **Sprint 1**: Core domain models, feature extraction pipelines, and data ingestion service integration.
+* **Sprint 2**: Strategy executor interfaces, backtesting simulation engine, and basic analytics framework.
+* **Future Milestones**: Live brokerage adapters, real-time risk checks, and web visualization dashboards.
+
 
 ---
 
